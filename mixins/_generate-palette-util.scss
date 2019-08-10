@@ -1,0 +1,21 @@
+@mixin generate-palette-util($pre, $prop, $palette) {
+  // Get the palette name
+  $palette-name: map-get($palette, 'name');
+
+  // Loop in palette and pick palette tones (50, 100, 200, 300 ...)
+  @each $tone in map-keys($palette) {
+        
+    // If key is not name, extend the class name
+    @if $tone != name {
+      
+      // Class name = .pre-paletteName-tone
+      // Example; generate-palette-util(bg, background, $red)
+      // .bg-red-100
+      .#{$pre}-#{$palette-name}-#{$tone} {
+        
+        // Print out CSS prop and value        
+        #{$prop}: map-get($palette, $tone);
+      }
+    }    
+  }
+}
