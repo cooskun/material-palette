@@ -1,4 +1,5 @@
 $green : (
+  name: 'green',
   50: #E8F5E9,
   100: #C8E6C9,
   200: #C8E6C9,
@@ -13,19 +14,19 @@ $green : (
   a200: #69F0AE,
   a400: #00E676,
   a700: #00C853,
-);
+) !default;
 
-$green-50   : map-get($green, 50); 
-$green-100  : map-get($green, 100);
-$green-200  : map-get($green, 200);
-$green-300  : map-get($green, 300);
-$green-400  : map-get($green, 400);
-$green-500  : map-get($green, 500);
-$green-600  : map-get($green, 600);
-$green-700  : map-get($green, 700);
-$green-800  : map-get($green, 800);
-$green-900  : map-get($green, 900);
-$green-a100 : map-get($green, a100);
-$green-a200 : map-get($green, a200);
-$green-a400 : map-get($green, a300);
-$green-a700 : map-get($green, a400);
+$green-50   : map-get($green, 50) !default; 
+$green-100  : map-get($green, 100) !default;
+$green-200  : map-get($green, 200) !default;
+$green-300  : map-get($green, 300) !default;
+$green-400  : map-get($green, 400) !default;
+$green-500  : map-get($green, 500) !default;
+$green-600  : map-get($green, 600) !default;
+$green-700  : map-get($green, 700) !default;
+$green-800  : map-get($green, 800) !default;
+$green-900  : map-get($green, 900) !default;
+$green-a100 : map-get($green, a100) !default;
+$green-a200 : map-get($green, a200) !default;
+$green-a400 : map-get($green, a300) !default;
+$green-a700 : map-get($green, a400) !default;

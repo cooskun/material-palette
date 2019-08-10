@@ -1,4 +1,5 @@
 $yellow : (
+  name: 'yellow',
   50: #FFFDE7,
   100: #FFF9C4,
   200: #FFF59D,
@@ -13,19 +14,19 @@ $yellow : (
   a200: #FFFF00,
   a400: #FFEA00,
   a700: #FFD600
-);
+) !default;
 
-$yellow-50   : map-get($yellow, 50);
-$yellow-100  : map-get($yellow, 100);
-$yellow-200  : map-get($yellow, 200);
-$yellow-300  : map-get($yellow, 300);
-$yellow-400  : map-get($yellow, 400);
-$yellow-500  : map-get($yellow, 500);
-$yellow-600  : map-get($yellow, 600);
-$yellow-700  : map-get($yellow, 700);
-$yellow-800  : map-get($yellow, 800);
-$yellow-900  : map-get($yellow, 900);
-$yellow-a100 : map-get($yellow, a100);
-$yellow-a200 : map-get($yellow, a200);
-$yellow-a400 : map-get($yellow, a400);
-$yellow-a700 : map-get($yellow, a700);
+$yellow-50   : map-get($yellow, 50) !default;
+$yellow-100  : map-get($yellow, 100) !default;
+$yellow-200  : map-get($yellow, 200) !default;
+$yellow-300  : map-get($yellow, 300) !default;
+$yellow-400  : map-get($yellow, 400) !default;
+$yellow-500  : map-get($yellow, 500) !default;
+$yellow-600  : map-get($yellow, 600) !default;
+$yellow-700  : map-get($yellow, 700) !default;
+$yellow-800  : map-get($yellow, 800) !default;
+$yellow-900  : map-get($yellow, 900) !default;
+$yellow-a100 : map-get($yellow, a100) !default;
+$yellow-a200 : map-get($yellow, a200) !default;
+$yellow-a400 : map-get($yellow, a400) !default;
+$yellow-a700 : map-get($yellow, a700) !default;

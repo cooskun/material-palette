@@ -1,4 +1,5 @@
 $amber : (
+  name: 'amber',
   50: #FFF8E1,
   100: #FFECB3,
   200: #FFE082,
@@ -13,19 +14,19 @@ $amber : (
   a200: #FFD740,
   a400: #FFC400,
   a700: #FFAB00
-);
+) !default;
 
-$amber-50   : map-get($amber, 50);
-$amber-100  : map-get($amber, 100);
-$amber-200  : map-get($amber, 200);
-$amber-300  : map-get($amber, 300);
-$amber-400  : map-get($amber, 400);
-$amber-500  : map-get($amber, 500);
-$amber-600  : map-get($amber, 600);
-$amber-700  : map-get($amber, 700);
-$amber-800  : map-get($amber, 800);
-$amber-900  : map-get($amber, 900);
-$amber-a100 : map-get($amber, a100);
-$amber-a200 : map-get($amber, a200);
-$amber-a400 : map-get($amber, a400);
-$amber-a700 : map-get($amber, a700);
+$amber-50   : map-get($amber, 50) !default;
+$amber-100  : map-get($amber, 100) !default;
+$amber-200  : map-get($amber, 200) !default;
+$amber-300  : map-get($amber, 300) !default;
+$amber-400  : map-get($amber, 400) !default;
+$amber-500  : map-get($amber, 500) !default;
+$amber-600  : map-get($amber, 600) !default;
+$amber-700  : map-get($amber, 700) !default;
+$amber-800  : map-get($amber, 800) !default;
+$amber-900  : map-get($amber, 900) !default;
+$amber-a100 : map-get($amber, a100) !default;
+$amber-a200 : map-get($amber, a200) !default;
+$amber-a400 : map-get($amber, a400) !default;
+$amber-a700 : map-get($amber, a700) !default;

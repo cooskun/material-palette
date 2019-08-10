@@ -1,4 +1,5 @@
 $teal : (
+  name: 'teal',
   50: #E0F2F1,
   100: #B2DFDB,
   200: #80CBC4,
@@ -13,19 +14,19 @@ $teal : (
   a200: #64FFDA,
   a400: #1DE9B6,
   a700: #00BFA5
-);
+) !default;
 
-$teal-50   : map-get($teal, 50); 
-$teal-100  : map-get($teal, 100);
-$teal-200  : map-get($teal, 200);
-$teal-300  : map-get($teal, 300);
-$teal-400  : map-get($teal, 400);
-$teal-500  : map-get($teal, 500);
-$teal-600  : map-get($teal, 600);
-$teal-700  : map-get($teal, 700);
-$teal-800  : map-get($teal, 800);
-$teal-900  : map-get($teal, 900);
-$teal-a100 : map-get($teal, a100);
-$teal-a200 : map-get($teal, a200);
-$teal-a400 : map-get($teal, a400);
-$teal-a700 : map-get($teal, a700);
+$teal-50   : map-get($teal, 50) !default; 
+$teal-100  : map-get($teal, 100) !default;
+$teal-200  : map-get($teal, 200) !default;
+$teal-300  : map-get($teal, 300) !default;
+$teal-400  : map-get($teal, 400) !default;
+$teal-500  : map-get($teal, 500) !default;
+$teal-600  : map-get($teal, 600) !default;
+$teal-700  : map-get($teal, 700) !default;
+$teal-800  : map-get($teal, 800) !default;
+$teal-900  : map-get($teal, 900) !default;
+$teal-a100 : map-get($teal, a100) !default;
+$teal-a200 : map-get($teal, a200) !default;
+$teal-a400 : map-get($teal, a400) !default;
+$teal-a700 : map-get($teal, a700) !default;

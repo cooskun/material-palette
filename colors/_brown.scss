@@ -1,4 +1,5 @@
 $brown : (
+  name: 'brown',
   50: #EFEBE9,
   100: #D7CCC8,
   200: #BCAAA4,
@@ -9,15 +10,15 @@ $brown : (
   700: #5D4037,
   800: #4E342E,
   900: #3E2723
-);
+) !default;
 
-$brown-50   : map-get($brown, 50);
-$brown-100  : map-get($brown, 100);
-$brown-200  : map-get($brown, 200);
-$brown-300  : map-get($brown, 300);
-$brown-400  : map-get($brown, 400);
-$brown-500  : map-get($brown, 500);
-$brown-600  : map-get($brown, 600);
-$brown-700  : map-get($brown, 700);
-$brown-800  : map-get($brown, 800);
-$brown-900  : map-get($brown, 900);
+$brown-50   : map-get($brown, 50) !default;
+$brown-100  : map-get($brown, 100) !default;
+$brown-200  : map-get($brown, 200) !default;
+$brown-300  : map-get($brown, 300) !default;
+$brown-400  : map-get($brown, 400) !default;
+$brown-500  : map-get($brown, 500) !default;
+$brown-600  : map-get($brown, 600) !default;
+$brown-700  : map-get($brown, 700) !default;
+$brown-800  : map-get($brown, 800) !default;
+$brown-900  : map-get($brown, 900) !default;

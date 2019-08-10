@@ -1,4 +1,5 @@
 $pink : (
+  name: 'pink',
   50: #FCE4EC,
   100: #F8BBD0,
   200: #F48FB1,
@@ -13,19 +14,19 @@ $pink : (
   a200: #FF4081,
   a400: #F50057,
   a700: #C51162
-);
+) !default;
 
-$pink-50   : map-get($pink, 50);
-$pink-100  : map-get($pink, 100);
-$pink-200  : map-get($pink, 200);
-$pink-300  : map-get($pink, 300);
-$pink-400  : map-get($pink, 400);
-$pink-500  : map-get($pink, 500);
-$pink-600  : map-get($pink, 600);
-$pink-700  : map-get($pink, 700);
-$pink-800  : map-get($pink, 800);
-$pink-900  : map-get($pink, 900);
-$pink-a100 : map-get($pink, a100);
-$pink-a200 : map-get($pink, a200);
-$pink-a400 : map-get($pink, a400);
-$pink-a700 : map-get($pink, a700);
+$pink-50   : map-get($pink, 50) !default;
+$pink-100  : map-get($pink, 100) !default;
+$pink-200  : map-get($pink, 200) !default;
+$pink-300  : map-get($pink, 300) !default;
+$pink-400  : map-get($pink, 400) !default;
+$pink-500  : map-get($pink, 500) !default;
+$pink-600  : map-get($pink, 600) !default;
+$pink-700  : map-get($pink, 700) !default;
+$pink-800  : map-get($pink, 800) !default;
+$pink-900  : map-get($pink, 900) !default;
+$pink-a100 : map-get($pink, a100) !default;
+$pink-a200 : map-get($pink, a200) !default;
+$pink-a400 : map-get($pink, a400) !default;
+$pink-a700 : map-get($pink, a700) !default;

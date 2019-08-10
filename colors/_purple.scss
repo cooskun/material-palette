@@ -1,4 +1,5 @@
 $purple : (
+  name: 'purple',
   50: #F3E5F5,
   100: #E1BEE7,
   200: #CE93D8,
@@ -13,19 +14,19 @@ $purple : (
   a200: #E040FB,
   a400: #D500F9,
   a700: #AA00FF
-);
+) !default;
 
-$purple-50   : map-get($purple, 50);
-$purple-100  : map-get($purple, 100);
-$purple-200  : map-get($purple, 200);
-$purple-300  : map-get($purple, 300);
-$purple-400  : map-get($purple, 400);
-$purple-500  : map-get($purple, 500);
-$purple-600  : map-get($purple, 600);
-$purple-700  : map-get($purple, 700);
-$purple-800  : map-get($purple, 800);
-$purple-900  : map-get($purple, 900);
-$purple-a100  : map-get($purple, a100);
-$purple-a200  : map-get($purple, a200);
-$purple-a400  : map-get($purple, a400);
-$purple-a700  : map-get($purple, a700);
+$purple-50   : map-get($purple, 50) !default;
+$purple-100  : map-get($purple, 100) !default;
+$purple-200  : map-get($purple, 200) !default;
+$purple-300  : map-get($purple, 300) !default;
+$purple-400  : map-get($purple, 400) !default;
+$purple-500  : map-get($purple, 500) !default;
+$purple-600  : map-get($purple, 600) !default;
+$purple-700  : map-get($purple, 700) !default;
+$purple-800  : map-get($purple, 800) !default;
+$purple-900  : map-get($purple, 900) !default;
+$purple-a100  : map-get($purple, a100) !default;
+$purple-a200  : map-get($purple, a200) !default;
+$purple-a400  : map-get($purple, a400) !default;
+$purple-a700  : map-get($purple, a700) !default;

@@ -1,4 +1,5 @@
 $cyan : (
+  name: 'cyan',
   50: #E0F7FA,
   100: #B2EBF2,
   200: #80DEEA,
@@ -13,19 +14,19 @@ $cyan : (
   a200: #18FFFF,
   a400: #00E5FF,
   a700: #00B8D4
-);
+) !default;
 
-$cyan-50   : map-get($cyan, 50);
-$cyan-100  : map-get($cyan, 100);
-$cyan-200  : map-get($cyan, 200);
-$cyan-300  : map-get($cyan, 300);
-$cyan-400  : map-get($cyan, 400);
-$cyan-500  : map-get($cyan, 500);
-$cyan-600  : map-get($cyan, 600);
-$cyan-700  : map-get($cyan, 700);
-$cyan-800  : map-get($cyan, 800);
-$cyan-900  : map-get($cyan, 900);
-$cyan-a100  : map-get($cyan, a100);
-$cyan-a200  : map-get($cyan, a200);
-$cyan-a400  : map-get($cyan, a400);
-$cyan-a700  : map-get($cyan, a700);
+$cyan-50   : map-get($cyan, 50) !default;
+$cyan-100  : map-get($cyan, 100) !default;
+$cyan-200  : map-get($cyan, 200) !default;
+$cyan-300  : map-get($cyan, 300) !default;
+$cyan-400  : map-get($cyan, 400) !default;
+$cyan-500  : map-get($cyan, 500) !default;
+$cyan-600  : map-get($cyan, 600) !default;
+$cyan-700  : map-get($cyan, 700) !default;
+$cyan-800  : map-get($cyan, 800) !default;
+$cyan-900  : map-get($cyan, 900) !default;
+$cyan-a100  : map-get($cyan, a100) !default;
+$cyan-a200  : map-get($cyan, a200) !default;
+$cyan-a400  : map-get($cyan, a400) !default;
+$cyan-a700  : map-get($cyan, a700) !default;

@@ -1,4 +1,5 @@
 $blue-gray : (
+  name: 'blue-gray',
   50: #FAFAFA,
   100: #F5F5F5,
   200: #EEEEEE,
@@ -9,15 +10,15 @@ $blue-gray : (
   700: #616161,
   800: #424242,
   900: #212121
-);
+) !default;
 
-$blue-gray-50   : map-get($blue-gray, 50);
-$blue-gray-100  : map-get($blue-gray, 100);
-$blue-gray-200  : map-get($blue-gray, 200);
-$blue-gray-300  : map-get($blue-gray, 300);
-$blue-gray-400  : map-get($blue-gray, 400);
-$blue-gray-500  : map-get($blue-gray, 500);
-$blue-gray-600  : map-get($blue-gray, 600);
-$blue-gray-700  : map-get($blue-gray, 700);
-$blue-gray-800  : map-get($blue-gray, 800);
-$blue-gray-900  : map-get($blue-gray, 900);
+$blue-gray-50   : map-get($blue-gray, 50) !default;
+$blue-gray-100  : map-get($blue-gray, 100) !default;
+$blue-gray-200  : map-get($blue-gray, 200) !default;
+$blue-gray-300  : map-get($blue-gray, 300) !default;
+$blue-gray-400  : map-get($blue-gray, 400) !default;
+$blue-gray-500  : map-get($blue-gray, 500) !default;
+$blue-gray-600  : map-get($blue-gray, 600) !default;
+$blue-gray-700  : map-get($blue-gray, 700) !default;
+$blue-gray-800  : map-get($blue-gray, 800) !default;
+$blue-gray-900  : map-get($blue-gray, 900) !default;

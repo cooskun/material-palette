@@ -1,4 +1,5 @@
 $red : (
+  name: 'red',
   50: #FFEBEE,
   100: #FFCDD2,
   200: #EF9A9A,
@@ -13,19 +14,19 @@ $red : (
   a200: #FF5252,
   a400: #FF1744,
   a700: #D50000
-);
+) !default;
 
-$red-50   : map-get($red, 50);
-$red-100  : map-get($red, 100);
-$red-200  : map-get($red, 200);
-$red-300  : map-get($red, 300);
-$red-400  : map-get($red, 400);
-$red-500  : map-get($red, 500);
-$red-600  : map-get($red, 600);
-$red-700  : map-get($red, 700);
-$red-800  : map-get($red, 800);
-$red-900  : map-get($red, 900);
-$red-a100 : map-get($red, a100);
-$red-a200 : map-get($red, a200);
-$red-a400 : map-get($red, a400);
-$red-a700 : map-get($red, a700);
+$red-50   : map-get($red, 50) !default;
+$red-100  : map-get($red, 100) !default;
+$red-200  : map-get($red, 200) !default;
+$red-300  : map-get($red, 300) !default;
+$red-400  : map-get($red, 400) !default;
+$red-500  : map-get($red, 500) !default;
+$red-600  : map-get($red, 600) !default;
+$red-700  : map-get($red, 700) !default;
+$red-800  : map-get($red, 800) !default;
+$red-900  : map-get($red, 900) !default;
+$red-a100 : map-get($red, a100) !default;
+$red-a200 : map-get($red, a200) !default;
+$red-a400 : map-get($red, a400) !default;
+$red-a700 : map-get($red, a700) !default;

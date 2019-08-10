@@ -1,4 +1,5 @@
 $lime : (
+  name: 'lime',
   50: #F9FBE7,
   100: #F0F4C3,
   200: #E6EE9C,
@@ -13,19 +14,19 @@ $lime : (
   a200: #EEFF41,
   a400: #C6FF00,
   a700: #AEEA00
-);
+) !default;
 
-$lime-50   : map-get($lime, 50);
-$lime-100  : map-get($lime, 100);
-$lime-200  : map-get($lime, 200);
-$lime-300  : map-get($lime, 300);
-$lime-400  : map-get($lime, 400);
-$lime-500  : map-get($lime, 500);
-$lime-600  : map-get($lime, 600);
-$lime-700  : map-get($lime, 700);
-$lime-800  : map-get($lime, 800);
-$lime-900  : map-get($lime, 900);
-$lime-a100 : map-get($lime, a100);
-$lime-a200 : map-get($lime, a200);
-$lime-a400 : map-get($lime, a400);
-$lime-a700 : map-get($lime, a700);
+$lime-50   : map-get($lime, 50) !default;
+$lime-100  : map-get($lime, 100) !default;
+$lime-200  : map-get($lime, 200) !default;
+$lime-300  : map-get($lime, 300) !default;
+$lime-400  : map-get($lime, 400) !default;
+$lime-500  : map-get($lime, 500) !default;
+$lime-600  : map-get($lime, 600) !default;
+$lime-700  : map-get($lime, 700) !default;
+$lime-800  : map-get($lime, 800) !default;
+$lime-900  : map-get($lime, 900) !default;
+$lime-a100 : map-get($lime, a100) !default;
+$lime-a200 : map-get($lime, a200) !default;
+$lime-a400 : map-get($lime, a400) !default;
+$lime-a700 : map-get($lime, a700) !default;

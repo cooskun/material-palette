@@ -1,4 +1,5 @@
 $orange : (
+  name: 'orange',
   50: #FFF3E0,
   100: #FFE0B2,
   200: #FFCC80,
@@ -13,19 +14,19 @@ $orange : (
   a200: #FFAB40,
   a400: #FF9100,
   a700: #FF6D00
-);
+) !default;
 
-$orange-50   : map-get($orange, 50);
-$orange-100  : map-get($orange, 100);
-$orange-200  : map-get($orange, 200);
-$orange-300  : map-get($orange, 300);
-$orange-400  : map-get($orange, 400);
-$orange-500  : map-get($orange, 500);
-$orange-600  : map-get($orange, 600);
-$orange-700  : map-get($orange, 700);
-$orange-800  : map-get($orange, 800);
-$orange-900  : map-get($orange, 900);
-$orange-a100 : map-get($orange, a100);
-$orange-a200 : map-get($orange, a200);
-$orange-a400 : map-get($orange, a400);
-$orange-a700 : map-get($orange, a700);
+$orange-50   : map-get($orange, 50) !default;
+$orange-100  : map-get($orange, 100) !default;
+$orange-200  : map-get($orange, 200) !default;
+$orange-300  : map-get($orange, 300) !default;
+$orange-400  : map-get($orange, 400) !default;
+$orange-500  : map-get($orange, 500) !default;
+$orange-600  : map-get($orange, 600) !default;
+$orange-700  : map-get($orange, 700) !default;
+$orange-800  : map-get($orange, 800) !default;
+$orange-900  : map-get($orange, 900) !default;
+$orange-a100 : map-get($orange, a100) !default;
+$orange-a200 : map-get($orange, a200) !default;
+$orange-a400 : map-get($orange, a400) !default;
+$orange-a700 : map-get($orange, a700) !default;
