@@ -1,0 +1,31 @@
+$light-green : (
+  50: #F1F8E9,
+  100: #DCEDC8,
+  200: #C5E1A5,
+  300: #AED581,
+  400: #9CCC65,
+  500: #8BC34A,
+  600: #7CB342,
+  700: #689F38,
+  800: #558B2F,
+  900: #33691E,
+  a100: #CCFF90,
+  a200: #B2FF59,
+  a400: #76FF03,
+  a700: #64DD17,
+);
+
+$light-green-50   : map-get($light-green, 50);
+$light-green-100  : map-get($light-green, 100); 
+$light-green-200  : map-get($light-green, 200);
+$light-green-300  : map-get($light-green, 300);
+$light-green-400  : map-get($light-green, 400);
+$light-green-500  : map-get($light-green, 500);
+$light-green-600  : map-get($light-green, 600);
+$light-green-700  : map-get($light-green, 700);
+$light-green-800  : map-get($light-green, 800);
+$light-green-900  : map-get($light-green, 900);
+$light-green-a100 : map-get($light-green, a100);
+$light-green-a200 : map-get($light-green, a200);
+$light-green-a400 : map-get($light-green, a400);
+$light-green-a700 : map-get($light-green, a700);

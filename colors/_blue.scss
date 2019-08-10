@@ -1,0 +1,31 @@
+$blue : (
+  50: #E3F2FD,
+  100: #BBDEFB,
+  200: #90CAF9,
+  300: #64B5F6,
+  400: #42A5F5,
+  500: #2196F3,
+  600: #1E88E5,
+  700: #1976D2,
+  800: #1565C0,
+  900: #0D47A1,
+  a100: #82B1FF,
+  a200: #448AFF,
+  a400: #2979FF,
+  a700: #2962FF
+);
+
+$blue-50   : map-get($blue, 50);
+$blue-100  : map-get($blue, 100);
+$blue-200  : map-get($blue, 200);
+$blue-300  : map-get($blue, 300);
+$blue-400  : map-get($blue, 400);
+$blue-500  : map-get($blue, 500);
+$blue-600  : map-get($blue, 600);
+$blue-700  : map-get($blue, 700);
+$blue-800  : map-get($blue, 800);
+$blue-900  : map-get($blue, 900);
+$blue-a100 : map-get($blue, a100);
+$blue-a200 : map-get($blue, a200);
+$blue-a300 : map-get($blue, a300);
+$blue-a400 : map-get($blue, a400);

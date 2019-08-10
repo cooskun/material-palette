@@ -1,0 +1,31 @@
+$deep-orange : (
+  50: #FFF3E0,
+  100: #FFE0B2,
+  200: #FFCC80,
+  300: #FFB74D,
+  400: #FFA726,
+  500: #FF9800,
+  600: #FB8C00,
+  700: #F57C00,
+  800: #EF6C00,
+  900: #E65100,
+  a100: #FFD180,
+  a200: #FFAB40,
+  a400: #FF9100,
+  a700: #FF6D00
+);
+
+$deep-orange-50   : map-get($deep-orange, 50);
+$deep-orange-100  : map-get($deep-orange, 100);
+$deep-orange-200  : map-get($deep-orange, 200);
+$deep-orange-300  : map-get($deep-orange, 300);
+$deep-orange-400  : map-get($deep-orange, 400);
+$deep-orange-500  : map-get($deep-orange, 500);
+$deep-orange-600  : map-get($deep-orange, 600);
+$deep-orange-700  : map-get($deep-orange, 700);
+$deep-orange-800  : map-get($deep-orange, 800);
+$deep-orange-900  : map-get($deep-orange, 900);
+$deep-orange-a100 : map-get($deep-orange, a100);
+$deep-orange-a200 : map-get($deep-orange, a200);
+$deep-orange-a400 : map-get($deep-orange, a400);
+$deep-orange-a700 : map-get($deep-orange, a700);

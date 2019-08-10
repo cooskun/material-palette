@@ -1,0 +1,31 @@
+$light-blue : (
+  50: #E1F5FE,
+  100: #B3E5FC,
+  200: #81D4FA,
+  300: #4FC3F7,
+  400: #29B6F6,
+  500: #03A9F4,
+  600: #039BE5,
+  700: #0288D1,
+  800: #0277BD,
+  900: #01579B,
+  a100: #80D8FF,
+  a200: #40C4FF,
+  a400: #00B0FF,
+  a700: #0091EA
+);
+
+$light-blue-50   : map-get($light-blue, 50);
+$light-blue-100  : map-get($light-blue, 100);
+$light-blue-200  : map-get($light-blue, 200);
+$light-blue-300  : map-get($light-blue, 300);
+$light-blue-400  : map-get($light-blue, 400);
+$light-blue-500  : map-get($light-blue, 500);
+$light-blue-600  : map-get($light-blue, 600);
+$light-blue-700  : map-get($light-blue, 700);
+$light-blue-800  : map-get($light-blue, 800);
+$light-blue-900  : map-get($light-blue, 900);
+$light-blue-a100 : map-get($light-blue, a100);
+$light-blue-a200 : map-get($light-blue, a200);
+$light-blue-a400 : map-get($light-blue, a400);
+$light-blue-a700 : map-get($light-blue, a700);

@@ -1,0 +1,31 @@
+$pink : (
+  50: #FCE4EC,
+  100: #F8BBD0,
+  200: #F48FB1,
+  300: #F06292,
+  400: #EC407A,
+  500: #E91E63,
+  600: #D81B60,
+  700: #C2185B,
+  800: #AD1457,
+  900: #880E4F,
+  a100: #FF80AB,
+  a200: #FF4081,
+  a400: #F50057,
+  a700: #C51162
+);
+
+$pink-50   : map-get($pink, 50);
+$pink-100  : map-get($pink, 100);
+$pink-200  : map-get($pink, 200);
+$pink-300  : map-get($pink, 300);
+$pink-400  : map-get($pink, 400);
+$pink-500  : map-get($pink, 500);
+$pink-600  : map-get($pink, 600);
+$pink-700  : map-get($pink, 700);
+$pink-800  : map-get($pink, 800);
+$pink-900  : map-get($pink, 900);
+$pink-a100 : map-get($pink, a100);
+$pink-a200 : map-get($pink, a200);
+$pink-a400 : map-get($pink, a400);
+$pink-a700 : map-get($pink, a700);

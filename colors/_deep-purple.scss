@@ -1,0 +1,31 @@
+$deep-purple : (
+  50: #EDE7F6,
+  100: #D1C4E9,
+  200: #B39DDB,
+  300: #9575CD,
+  400: #7E57C2,
+  500: #673AB7,
+  600: #5E35B1,
+  700: #512DA8,
+  800: #4527A0,
+  900: #311B92,
+  a100: #B388FF,
+  a200: #7C4DFF,
+  a400: #651FFF,
+  a700: #6200EA
+);
+
+$deep-purple-50   : map-get($deep-purple, 50);
+$deep-purple-100  : map-get($deep-purple, 100);
+$deep-purple-200  : map-get($deep-purple, 200);
+$deep-purple-300  : map-get($deep-purple, 300);
+$deep-purple-400  : map-get($deep-purple, 400);
+$deep-purple-500  : map-get($deep-purple, 500);
+$deep-purple-600  : map-get($deep-purple, 600);
+$deep-purple-700  : map-get($deep-purple, 700);
+$deep-purple-800  : map-get($deep-purple, 800);
+$deep-purple-900  : map-get($deep-purple, 900);
+$deep-purple-a100 : map-get($deep-purple, a100);
+$deep-purple-a200 : map-get($deep-purple, a200);
+$deep-purple-a400 : map-get($deep-purple, a400);
+$deep-purple-a700 : map-get($deep-purple, a700);

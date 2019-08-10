@@ -1,0 +1,31 @@
+$green : (
+  50: #E8F5E9,
+  100: #C8E6C9,
+  200: #C8E6C9,
+  300: #C8E6C9,
+  400: #66BB6A,
+  500: #4CAF50,
+  600: #43A047,
+  700: #388E3C,
+  800: #2E7D32,
+  900: #1B5E20,
+  a100: #B9F6CA,
+  a200: #69F0AE,
+  a400: #00E676,
+  a700: #00C853,
+);
+
+$green-50   : map-get($green, 50); 
+$green-100  : map-get($green, 100);
+$green-200  : map-get($green, 200);
+$green-300  : map-get($green, 300);
+$green-400  : map-get($green, 400);
+$green-500  : map-get($green, 500);
+$green-600  : map-get($green, 600);
+$green-700  : map-get($green, 700);
+$green-800  : map-get($green, 800);
+$green-900  : map-get($green, 900);
+$green-a100 : map-get($green, a100);
+$green-a200 : map-get($green, a200);
+$green-a400 : map-get($green, a300);
+$green-a700 : map-get($green, a400);

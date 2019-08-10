@@ -1,0 +1,31 @@
+$red : (
+  50: #FFEBEE,
+  100: #FFCDD2,
+  200: #EF9A9A,
+  300: #E57373,
+  400: #EF5350,
+  500: #F44336,
+  600: #E53935,
+  700: #D32F2F,
+  800: #C62828,
+  900: #B71C1C,
+  a100: #FF8A80,
+  a200: #FF5252,
+  a400: #FF1744,
+  a700: #D50000
+);
+
+$red-50   : map-get($red, 50);
+$red-100  : map-get($red, 100);
+$red-200  : map-get($red, 200);
+$red-300  : map-get($red, 300);
+$red-400  : map-get($red, 400);
+$red-500  : map-get($red, 500);
+$red-600  : map-get($red, 600);
+$red-700  : map-get($red, 700);
+$red-800  : map-get($red, 800);
+$red-900  : map-get($red, 900);
+$red-a100 : map-get($red, a100);
+$red-a200 : map-get($red, a200);
+$red-a400 : map-get($red, a400);
+$red-a700 : map-get($red, a700);
