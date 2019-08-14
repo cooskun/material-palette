@@ -20,13 +20,17 @@
 @import 'colors/teal';
 @import 'colors/yellow';
 
+// Palette
+@import 'colors/palette';
+
 // Functions
-@import 'functions/palette';
+@import 'functions/colorpicker';
 
 // Mixins
 @import 'mixins/generate-palette-util';
 
-
+// Utilities
+@import 'utils/palette-utilities';
 
 
 

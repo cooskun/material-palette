@@ -1,0 +1,23 @@
+$palette : () !default;
+
+$palette: map-merge((
+    amber: $amber,
+    blue-gray: $blue-gray,
+    blue: $blue,
+    brown: $brown,
+    cyan: $cyan,
+    deep-orange: $deep-orange,
+    deep-purple: $deep-purple,
+    gray: $gray,
+    green: $green,
+    indigo: $indigo,
+    light-blue: $light-blue,
+    light-green: $light-green,
+    lime: $lime,
+    orange: $orange,
+    pink: $pink,
+    purple: $purple,
+    red: $red,
+    teal: $teal,
+    yellow: $yellow
+), $palette);

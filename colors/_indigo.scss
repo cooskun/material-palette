@@ -1,4 +1,6 @@
-$indigo : (
+$indigo : () !default;
+
+$indigo : map-merge((
   name: 'indigo',
   50: #E8EAF6,
   100: #C5CAE9,
@@ -14,7 +16,7 @@ $indigo : (
   a200: #536DFE,
   a400: #3D5AFE,
   a700: #304FFE
-) !default;
+), $indigo);
 
 $indigo-50  : map-get($indigo, 50) !default;
 $indigo-100 : map-get($indigo, 100) !default;

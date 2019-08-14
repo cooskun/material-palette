@@ -1,4 +1,6 @@
-$yellow : (
+$yellow : () !default;
+
+$yellow : map-merge((
   name: 'yellow',
   50: #FFFDE7,
   100: #FFF9C4,
@@ -14,7 +16,7 @@ $yellow : (
   a200: #FFFF00,
   a400: #FFEA00,
   a700: #FFD600
-) !default;
+), $yellow);
 
 $yellow-50   : map-get($yellow, 50) !default;
 $yellow-100  : map-get($yellow, 100) !default;

@@ -1,4 +1,6 @@
-$purple : (
+$purple : () !default;
+
+$purple : map-merge((
   name: 'purple',
   50: #F3E5F5,
   100: #E1BEE7,
@@ -14,7 +16,7 @@ $purple : (
   a200: #E040FB,
   a400: #D500F9,
   a700: #AA00FF
-) !default;
+), $purple);
 
 $purple-50   : map-get($purple, 50) !default;
 $purple-100  : map-get($purple, 100) !default;

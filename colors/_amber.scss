@@ -1,4 +1,6 @@
-$amber : (
+$amber : () !default;
+
+$amber : map-merge((
   name: 'amber',
   50: #FFF8E1,
   100: #FFECB3,
@@ -14,7 +16,7 @@ $amber : (
   a200: #FFD740,
   a400: #FFC400,
   a700: #FFAB00
-) !default;
+), $amber);
 
 $amber-50   : map-get($amber, 50) !default;
 $amber-100  : map-get($amber, 100) !default;

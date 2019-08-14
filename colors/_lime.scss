@@ -1,4 +1,6 @@
-$lime : (
+$lime : () !default;
+
+$lime : map-merge((
   name: 'lime',
   50: #F9FBE7,
   100: #F0F4C3,
@@ -14,7 +16,7 @@ $lime : (
   a200: #EEFF41,
   a400: #C6FF00,
   a700: #AEEA00
-) !default;
+), $lime);
 
 $lime-50   : map-get($lime, 50) !default;
 $lime-100  : map-get($lime, 100) !default;

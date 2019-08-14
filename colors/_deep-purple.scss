@@ -1,4 +1,6 @@
-$deep-purple : (
+$deep-purple: () !default;
+
+$deep-purple : map-merge((
   name: 'deep-purple',
   50: #EDE7F6,
   100: #D1C4E9,
@@ -14,7 +16,7 @@ $deep-purple : (
   a200: #7C4DFF,
   a400: #651FFF,
   a700: #6200EA
-) !default;
+), $deep-purple);
 
 $deep-purple-50   : map-get($deep-purple, 50) !default;
 $deep-purple-100  : map-get($deep-purple, 100) !default;

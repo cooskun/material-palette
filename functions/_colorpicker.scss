@@ -1,0 +1,90 @@
+// Colorpicker
+@function colorpicker($color, $tone) {
+  $pickedcolor: '' !default;
+
+  @if map-has-key($palette, $color) {
+    $pickedcolor: map-get($palette, $color);
+    @return map-get($pickedcolor, $tone);
+  }
+  @else {
+    @warn '#{$color} not found.';
+    @return null;
+  }  
+}
+
+// Color Instances
+@function amber($tone) {
+  @return colorpicker(amber, $tone);
+}
+
+@function blue($tone) {
+  @return colorpicker(blue, $tone);
+}
+
+@function blue-gray($tone) {
+  @return colorpicker(blue-gray, $tone);
+}
+
+@function brown($tone) {
+  @return colorpicker(brown, $tone);
+}
+
+@function cyan($tone) {
+  @return colorpicker(cyan, $tone);
+}
+
+@function gray($tone) {
+  @return colorpicker(gray, $tone);
+}
+
+@function blue-gray($tone) {
+  @return colorpicker(blue-gray, $tone);
+}
+
+@function green($tone) {
+  @return colorpicker(green, $tone);
+}
+
+@function light-green($tone) {
+  @return colorpicker(light-green, $tone);
+}
+
+@function indigo($tone) {
+  @return colorpicker(indigo, $tone);
+}
+
+@function lime($tone) {
+  @return colorpicker(lime, $tone);
+}
+
+@function orange($tone) {
+  @return colorpicker(orange, $tone);
+}
+
+@function deep-orange($tone) {
+  @return colorpicker(deep-orange, $tone);
+}
+
+@function pink($tone) {
+  @return colorpicker(pink, $tone);
+}
+
+@function purple($tone) {
+  @return colorpicker(purple, $tone);
+}
+
+@function deep-purple($tone) {
+  @return colorpicker(deep-purple, $tone);
+}
+
+@function red($tone) {
+  @return colorpicker(red, $tone);
+}
+
+@function teal($tone) {
+  @return colorpicker(teal, $tone);
+}
+
+@function yellow($tone) {
+  @return colorpicker(yellow, $tone);
+}
