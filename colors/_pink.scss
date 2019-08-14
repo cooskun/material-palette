@@ -16,7 +16,7 @@ $pink : map-merge((
   a200: #FF4081,
   a400: #F50057,
   a700: #C51162
-), ());
+), $pink);
 
 $pink-50   : map-get($pink, 50) !default;
 $pink-100  : map-get($pink, 100) !default;
