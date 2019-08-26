@@ -1,6 +1,4 @@
-$orange : () !default;
-
-$orange : map-merge((
+$orange : (
   name: 'orange',
   50: #FFF3E0,
   100: #FFE0B2,
@@ -16,7 +14,7 @@ $orange : map-merge((
   a200: #FFAB40,
   a400: #FF9100,
   a700: #FF6D00
-), $orange);
+);
 
 $orange-50   : map-get($orange, 50) !default;
 $orange-100  : map-get($orange, 100) !default;

@@ -1,6 +1,4 @@
-$blue-gray : () !default;
-
-$blue-gray : map-merge((
+$blue-gray : (
   name: 'blue-gray',
   50: #FAFAFA,
   100: #F5F5F5,
@@ -12,7 +10,7 @@ $blue-gray : map-merge((
   700: #616161,
   800: #424242,
   900: #212121
-), $blue-gray);
+);
 
 $blue-gray-50   : map-get($blue-gray, 50) !default;
 $blue-gray-100  : map-get($blue-gray, 100) !default;
