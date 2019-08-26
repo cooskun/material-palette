@@ -1,6 +1,4 @@
-$cyan : () !default;
-
-$cyan : map-merge((
+$cyan : (
   name: 'cyan',
   50: #E0F7FA,
   100: #B2EBF2,
@@ -16,7 +14,7 @@ $cyan : map-merge((
   a200: #18FFFF,
   a400: #00E5FF,
   a700: #00B8D4
-), $cyan);
+);
 
 $cyan-50   : map-get($cyan, 50) !default;
 $cyan-100  : map-get($cyan, 100) !default;

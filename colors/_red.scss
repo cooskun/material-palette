@@ -1,6 +1,4 @@
-$red : () !default;
-
-$red : map-merge((
+$red : (
   name: 'red',
   50: #FFEBEE,
   100: #FFCDD2,
@@ -16,7 +14,7 @@ $red : map-merge((
   a200: #FF5252,
   a400: #FF1744,
   a700: #D50000
-), $red);
+);
 
 $red-50   : map-get($red, 50) !default;
 $red-100  : map-get($red, 100) !default;

@@ -1,6 +1,4 @@
-$deep-orange: () !default;
-
-$deep-orange : map-merge((
+$deep-orange : (
   name: 'deep-orange',
   50: #FFF3E0,
   100: #FFE0B2,
@@ -16,7 +14,7 @@ $deep-orange : map-merge((
   a200: #FFAB40,
   a400: #FF9100,
   a700: #FF6D00
-), $deep-orange);
+);
 
 $deep-orange-50   : map-get($deep-orange, 50) !default;
 $deep-orange-100  : map-get($deep-orange, 100) !default;

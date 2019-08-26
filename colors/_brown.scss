@@ -1,6 +1,4 @@
-$brown : () !default;
-
-$brown : map-merge((
+$brown : (
   name: 'brown',
   50: #EFEBE9,
   100: #D7CCC8,
@@ -12,7 +10,7 @@ $brown : map-merge((
   700: #5D4037,
   800: #4E342E,
   900: #3E2723
-), $brown);
+);
 
 $brown-50   : map-get($brown, 50) !default;
 $brown-100  : map-get($brown, 100) !default;

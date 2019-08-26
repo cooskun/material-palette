@@ -1,6 +1,4 @@
-$palette : () !default;
-
-$palette: map-merge((
+$palette: (
     amber: $amber,
     blue-gray: $blue-gray,
     blue: $blue,
@@ -20,4 +18,4 @@ $palette: map-merge((
     red: $red,
     teal: $teal,
     yellow: $yellow
-), $palette);
+);

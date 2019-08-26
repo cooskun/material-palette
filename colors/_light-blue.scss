@@ -1,6 +1,4 @@
-$light-blue : () !default;
-
-$light-blue : map-merge((
+$light-blue : (
   name: 'light-blue',
   50: #E1F5FE,
   100: #B3E5FC,
@@ -16,7 +14,7 @@ $light-blue : map-merge((
   a200: #40C4FF,
   a400: #00B0FF,
   a700: #0091EA
-), $light-blue);
+);
 
 $light-blue-50   : map-get($light-blue, 50) !default;
 $light-blue-100  : map-get($light-blue, 100) !default;
